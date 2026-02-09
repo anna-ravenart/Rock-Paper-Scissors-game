@@ -34,7 +34,7 @@ while True:
 
 
     human_move = ""
-    answer = input("Do you want play again? (y/n): ").lower()
+    answer = input("Do you want play again? (yes/no): ").lower()
     if answer == "no":
         print("\nThanks for playing! Bye!")
         input("\nPress Enter to exit")
